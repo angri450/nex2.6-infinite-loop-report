@@ -1,0 +1,14 @@
+# 本地运行产物，不入库
+run/
+data/pages/
+data/prefix*.json
+tools/alma-sys-real.txt
+*.err
+__pycache__/
+node_modules/
+
+# 客户端与凭据相关内容一律不提交
+alma-sys-real.txt
+*.env
+auth.json
+models.json
