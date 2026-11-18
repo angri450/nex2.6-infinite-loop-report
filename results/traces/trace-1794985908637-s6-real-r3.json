@@ -1,0 +1,30 @@
+{
+ "trial": 3,
+ "steps": 10,
+ "noopEdits": 10,
+ "magicBash": 0,
+ "deviations": 0,
+ "seq": [
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E",
+  "E"
+ ],
+ "textOut": 0,
+ "verdict": "LOOP_SIGNATURE",
+ "tokens": {
+  "in": 0,
+  "out": 0
+ },
+ "lastNoopEdit": true,
+ "seededNoop": 6,
+ "sysMode": "real",
+ "model": "nex-n2.6",
+ "maxTokens": 16384
+}

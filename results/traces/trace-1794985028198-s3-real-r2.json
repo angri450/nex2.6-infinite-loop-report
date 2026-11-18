@@ -1,0 +1,22 @@
+{
+ "trial": 2,
+ "steps": 2,
+ "noopEdits": 0,
+ "magicBash": 0,
+ "deviations": 0,
+ "seq": [
+  "E",
+  "TEXT"
+ ],
+ "textOut": 208,
+ "verdict": "FINISHED",
+ "tokens": {
+  "in": 0,
+  "out": 0
+ },
+ "lastNoopEdit": false,
+ "seededNoop": 3,
+ "sysMode": "real",
+ "model": "nex-n2.6",
+ "maxTokens": 16384
+}
