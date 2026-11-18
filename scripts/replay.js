@@ -164,7 +164,8 @@ async function oneTrial(cfg, base, n) {
     if (trace.noopEdits >= LOOP_AT || trace.magicBash >= LOOP_AT) { trace.verdict = 'LOOP_SIGNATURE'; break; }
   }
   if (!trace.verdict) trace.verdict = 'HIT_STEP_CAP';
-  fs.writeFileSync(path.join(SANDBOX, `trace-${n}.json`), JSON.stringify(trace, null, 1));
+  trace.seededNoop = SEED_NOOP; trace.sysMode = SYS_MODE; trace.model = MODEL; trace.maxTokens = cfg.maxtok;
+  fs.writeFileSync(path.join(SANDBOX, `trace-${Date.now()}-s${SEED_NOOP}-${SYS_MODE}-r${n}.json`), JSON.stringify(trace, null, 1));
   return trace;
 }
 
